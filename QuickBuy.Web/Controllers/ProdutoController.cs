@@ -1,8 +1,11 @@
-﻿using Microsoft.AspNetCore.Http;
+﻿using Microsoft.AspNetCore.Hosting;
+using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using QuickBuy.Dominio.Contratos;
 using QuickBuy.Dominio.Entidades;
 using System;
+using System.IO;
+using System.Linq;
 
 namespace QuickBuy.Web.Controllers
 {
