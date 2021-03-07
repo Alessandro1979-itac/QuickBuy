@@ -13,16 +13,12 @@ namespace QuickBuy.Repositorio.Repositorios
 
         public Usuario Obter(string email, string senha)
         {
-            return QuickBuyContexto.Usuarios.FirstOrDefault(
-                u => u.Email == email && u.Senha == senha
-            );
+            return QuickBuyContexto.Usuarios.FirstOrDefault(u => u.Email == email && u.Senha == senha);
         }
 
         public Usuario Obter(string email)
         {
-            return QuickBuyContexto.Usuarios.FirstOrDefault(
-                u => u.Email == email
-            );
+            return QuickBuyContexto.Usuarios.FirstOrDefault(u => u.Email == email);
         }
     }
 }

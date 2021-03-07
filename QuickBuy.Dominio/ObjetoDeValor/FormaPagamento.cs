@@ -27,5 +27,6 @@ namespace QuickBuy.Dominio.ObjetoDeValor
         {
             get { return Id == (int)TipoFormaPagamentoEnum.NaoDefinido; }
         }
+
     }
 }

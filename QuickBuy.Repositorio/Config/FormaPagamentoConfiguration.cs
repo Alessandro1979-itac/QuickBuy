@@ -17,6 +17,8 @@ namespace QuickBuy.Repositorio.Config
                 .Property(f => f.Descricao)
                 .IsRequired()
                 .HasMaxLength(100);
+
+
         }
     }
 }
